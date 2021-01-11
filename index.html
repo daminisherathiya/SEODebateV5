@@ -1,0 +1,574 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="./css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/SEODebateV5.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <title>SEODebateV5</title>
+</head>
+
+<body class="background">
+
+  <header class="fixed-top navigation-section">
+    <div class="container">
+      <nav class="navbar navbar-expand-xl navbar-light navbar-height">
+        <div class="container-fluid px-0">
+          <a class="navbar-brand d-flex align-items-center" href="#"><img src="./images/logo.png" alt=""></a>
+          <div class="collapse position-absolute nav-search-bar w-100 overflow-hidden" id="collapseExample">
+            <div class="input-group search-input-height">
+              <span class="input-group-text bg-white border-0" id="basic-addon1"><img src="./images/search-icon.png"
+                  alt=""></span>
+              <input type="text" class="form-control border-0 search-input shadow-none" placeholder="Search anything"
+                aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="d-block d-xl-none"><img class="pe-2 pe-sm-3" src="./images/search-icon.png" alt=""
+                data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                aria-controls="collapseExample"></div>
+            <div>
+              <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav-items-center">
+              <li class="nav-item">
+                <a class="nav-link active mynav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link mynav-link" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Explore <img class="pb-1 ps-1" src="./images/dropdown-arrow.png" alt="">
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item mydropdown-item text-start" href="#">Action</a></li>
+                  <li><a class="dropdown-item mydropdown-item text-start" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item mydropdown-item text-start" href="#">Something else
+                      here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mynav-link" href="#">Questions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mynav-link" href="#">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mynav-link" href="#">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mynav-link" href="#">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mynav-link" href="#">Tools</a>
+              </li>
+            </ul>
+            <div class="d-none d-xl-block"><img class="search-icon" src="./images/search-icon.png" alt=""
+                data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                aria-controls="collapseExample"></div>
+            <div class="d-flex justify-content-center justify-content-xl-start">
+              <button class="btn login-btn shadow-none text-nowrap text-center" type="submit">Login -
+                Register</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="main-title-section">
+      <div class="background-img">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6">
+              <h2 class="title-h">On Page Seo</h2>
+              <div class="horizontal-line"></div>
+              <p class="title-p">Learn how to increase your search traffic with a free copy of our SEO
+                tool and step by step guide.</p>
+            </div>
+          </div>
+
+          <div class="categaries">
+            <div class="categaries-container">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="">
+                    <a class="text-decoration-none d-flex align-items-center categorie-box" href="#">
+                    <img src="./images/categ-identification.png" alt="">
+                    <span class="categories-items">Identification</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div>
+                    <a class="text-decoration-none d-flex align-items-center categorie-box" href="#">
+                    <img src="./images/categ-technical.png" alt="">
+                    <span class="categories-items">Technical Seo</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div>
+                    <a class="text-decoration-none d-flex align-items-center categorie-box" href="#">
+                    <img src="./images/categ-onpage.png" alt="">
+                    <span class="categories-items">On Page Seo</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div>
+                    <a class="text-decoration-none d-flex align-items-center categorie-box" href="#">
+                    <img src="./images/categ-offpage.png" alt="">
+                    <span class="categories-items">Off Page Seo</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="featured-title">Featured</h4>
+          </div>
+          <div class="col-12">
+            <div class="featured-container">
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-questions.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">How to choose the right keyword? Which term is better to rank higher is it
+                    long tail or short tail keyword?</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-questions">Questions</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">On page seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-videos.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">With Google (Chrome) & Bing (IE / Edge) controlling the biggest and most used
+                    browsers, they could easily monitor with Google (Chrome) & Bing (IE / Edge) controlling the biggest and
+                    most used browsers, they could easily monitor</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-videos">Videos</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Identification</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-articles.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">With Google (Chrome) & Bing (IE / Edge) controlling the biggest and most used
+                    browsers</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-article">Articles</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Technical seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-resources.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">How to choose the right keyword? Which term is better to rank higher is it
+                    long tail or short tail keyword?</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-resources">Resources</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Technical seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-tools.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">With Google (Chrome) & Bing (IE / Edge) controlling the biggest and most used
+                    browsers, they could easily monitor with Google (Chrome) & Bing (IE / Edge) controlling the biggest and
+                    most used browsers, they could easily monitor</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-tools">Tools</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Technical seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-topics.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">With Google (Chrome) & Bing (IE / Edge) controlling the biggest and most used
+                    browsers</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-topics">Topics</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Technical seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="featured-title">Latest</h4>
+          </div>
+          <div class="col-12">
+            <div class="featured-container">
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-questions.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">How to choose the right keyword? Which term is better to rank higher is it
+                    long tail or short tail keyword?</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-questions">Questions</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">On page seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-videos.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">With Google (Chrome) & Bing (IE / Edge) controlling the biggest and most used
+                    browsers, they could easily monitor with Google (Chrome) & Bing (IE / Edge) controlling the biggest and
+                    most used browsers, they could easily monitor</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-videos">Videos</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Identification</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-articles.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">With Google (Chrome) & Bing (IE / Edge) controlling the biggest and most used
+                    browsers</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-article">Articles</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Technical seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-resources.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">How to choose the right keyword? Which term is better to rank higher is it
+                    long tail or short tail keyword?</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-resources">Resources</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Technical seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-tools.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">With Google (Chrome) & Bing (IE / Edge) controlling the biggest and most used
+                    browsers, they could easily monitor with Google (Chrome) & Bing (IE / Edge) controlling the biggest and
+                    most used browsers, they could easily monitor</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-tools">Tools</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Technical seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex border-bottom">
+                <div class="featured-icon"><img src="./images/f-topics.png" alt=""></div>
+                <div>
+                  <a class="text-decoration-none featured-h" href="#">With Google (Chrome) & Bing (IE / Edge) controlling the biggest and most used
+                    browsers</a>
+                  <div class="d-flex date-view-box mt-1">
+                    <div class=""><p class="mb-0 bg-topics">Topics</p></div>
+                    <div class="d-flex flex-column flex-sm-row align-items-center">
+                      <p class="in mb-1 mb-sm-0">In <a class="text-decoration-none" href="#"><u class="on-page link-hover">Technical seo</u></a></p>
+                      <p class="divider-border date mb-1 mb-sm-0">Sep 25, 2020</p>
+                      <p class="views mb-1 mb-sm-0">25,567 Views</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-none d-lg-block col-lg-4"></div>
+            <div class="col-12 col-md-6 col-lg-4 ps-0 mt-17">
+              <nav id="id-pagination-nav">
+                <ul
+                  class="pagination pagination-sm justify-content-center justify-content-md-start justify-content-lg-center">
+                  <li id="id-pagination-lt" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);"><i class="fas fa-angle-left arrow-color"></i></a></li>
+                  <li id="id-pagination-1" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">1</a></li>
+                  <li id="id-pagination-dots-1" class="d-none page-item p-1 disabled">...</li>
+                  <li id="id-pagination-2" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">2</a></li>
+                  <li id="id-pagination-3" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">3</a></li>
+                  <li id="id-pagination-4" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">4</a></li>
+                  <li id="id-pagination-5" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">5</a></li>
+                  <li id="id-pagination-6" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">6</a></li>
+                  <li id="id-pagination-dots-2" class="d-none page-item p-1 disabled">...</li>
+                  <li id="id-pagination-7" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">7</a></li>
+                  <li id="id-pagination-8" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">8</a></li>
+                  <li id="id-pagination-9" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">9</a></li>
+                  <li id="id-pagination-10" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">10</a></li>
+                  <li id="id-pagination-11" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">11</a></li>
+                  <li id="id-pagination-dots-3" class="d-none page-item p-1 disabled">...</li>
+                  <li id="id-pagination-12" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);">12</a></li>
+                  <li id="id-pagination-gt" class="d-none page-item px-1"><a class="page-link dot border-0"
+                      onclick="pagination_setup_page(this.text);"><i class="fas fa-angle-right arrow-color"></i></a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mt-2 my-lg-0">
+              <div class="row justify-content-center justify-content-md-end">
+                <form class="form-inline">
+                  <div class="form-group input-group-sm">
+                    <label for="id-pagination-input" class="mr-2 gray-color small font-size-15 dark-blue-color">Go to</label>
+                    <input id="id-pagination-input" type="text" class="mr-2 text-center page-box-border" placeholder="">
+                    <button type="button" class="btn light-blue-bgcolor btn-hover-effect text-white border-radius-6"
+                      onclick="pagination_setup_page(document.querySelector('#id-pagination-input').value);">
+                      <i class="fa fa-check" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <h4 class="faq-title">Frequently asked questions</h4>
+          </div>
+          <div class="col-xl-8">
+            <div>
+              <div>
+                <p>
+                  <button class="btn faq-h" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <div class="d-flex">
+                      <div><img class="mr-3" src="./images/plus-btn.png" alt=""></div>
+                      <div class="text-left"><span>This is my first time. Can you guide me?</span></div>
+                    </div>
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample">
+                  <div class="card card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container newsletter-bg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="newsletter-container">
+              <div class="text-center">
+                <h2 class="newsletter-h">Subscribe to our newsletter</h2>
+                <p class="newsletter-p">Get latest info in your inbox weekly!</p>
+              </div>
+              <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center checkboxes">
+                <div class="form-check">
+                  <input class="form-check-input my-chekbox shadow-none" type="checkbox" value="" id="flexCheckChecked1"
+                    checked>
+                  <label class="form-check-label my-label text-nowrap" for="flexCheckChecked1">
+                    Identification
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input my-chekbox shadow-none" type="checkbox" value="" id="flexCheckChecked2"
+                    checked>
+                  <label class="form-check-label my-label text-nowrap" for="flexCheckChecked2">
+                    Technical Seo
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input my-chekbox shadow-none" type="checkbox" value="" id="flexCheckChecked3"
+                    checked>
+                  <label class="form-check-label my-label text-nowrap" for="flexCheckChecked3">
+                    On Page Seo
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input my-chekbox shadow-none" type="checkbox" value="" id="flexCheckChecked4"
+                    checked>
+                  <label class="form-check-label my-label text-nowrap" for="flexCheckChecked4">
+                    Off Page Seo
+                  </label>
+                </div>
+              </div>
+              <div class="subscribe-container">
+                <div class="input-group subscribe-box overflow-hidden">
+                  <input type="text" class="form-control shadow-none border-0 subscribe-input"
+                    placeholder="Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn subscribe-btn shadow-none mt-3 mt-sm-0" type="button"
+                    id="button-addon2">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div><a href="#"><img src="./images/footer-logo.png" alt=""></a></div>
+          <p class="footer-p">Lorem ipsum dolor sit amet, consectetur adicin
+            elit. Morbi pellentesque vehicula magna, nec
+            lobortis lorem sagittis ut.</p>
+          <div><button class="btn learn-more-btn">Learn more</button></div>
+        </div>
+        <div class="col-lg-5">
+          <h6 class="footer-h">Quick Links</h6>
+          <div class="row">
+            <div class="col-xl-11">
+              <div class="row">
+                <div class="col-sm-4">
+                  <ul class="list-style-none ps-0">
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Questions</a>
+                    </li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Videos</a></li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Articles</a>
+                    </li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Resources</a>
+                    </li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Tools</a></li>
+                  </ul>
+                </div>
+                <div class="col-sm-4 ps-sm-0">
+                  <ul class="list-style-none ps-0">
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Indications</a>
+                    </li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Technical
+                        Seo</a></li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Onpage Seo</a>
+                    </li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Offpage Seo</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-sm-4 px-sm-0">
+                  <ul class="list-style-none ps-0">
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Privacy
+                        Policy</a></li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Terms &
+                        Condition</a></li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Help &
+                        Support</a></li>
+                    <li class="footer-link"><a class="text-decoration-none" href="#">Advertise</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <h6 class="footer-h">Be Social</h6>
+          <div class="footer-icon-box">
+            <a href="#"><i class="fab fa-facebook-square footer-icon pe-2"></i></a>
+            <a href="#"><i class="fab fa-twitter-square footer-icon pe-2"></i></a>
+            <a href="#"><i class="fab fa-linkedin footer-icon"></i></a>
+          </div>
+          <p>Copyright 2020, All Rights Reserved by <a class="text-decoration-none  seodbate-link"
+              href="#">SEODebate.com</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+  <script src="./js/SEODebateV5.js"></script>
+</body>
+
+</html>
