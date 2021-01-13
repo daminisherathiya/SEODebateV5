@@ -15,9 +15,6 @@
 /* font-end */
 
 /* common-css-start */
-.background {
-  background: url(../images/answer-bg.png) no-repeat top center;
-}
 body {
   font-family: Averta-Semibold;
   color: #031b4e;
@@ -43,7 +40,7 @@ p {
   background-color: #ececec;
 }
 .navigation-section {
-  background-color: white;
+  background-color: #f5f7fb
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link:active {
   color: #031b4e;
@@ -82,6 +79,9 @@ p {
 }
 .search-icon {
   padding: 10px 21px;
+}
+.navbar .nav-item:hover .dropdown-menu {
+  display: block;
 }
 /* nav-end */
 .newsletter-section {
@@ -124,7 +124,7 @@ p {
 
 .main-title-section {
   padding: 96px 0 51px 0;
-  background: linear-gradient(to bottom,#f5f7fb 84%,#fff 84%);
+  background: linear-gradient(to bottom,#f5f7fb 80.9%,#fff 80.9%);
 }
 .background-img {
   background: url(../images/background-img1.png) no-repeat top center;
@@ -164,6 +164,10 @@ p {
 
 
 
+.background-img2 {
+  background: url(../images/background-img2.png) no-repeat top center;
+  padding-bottom: 101px;
+}
 .featured-title {
   font-size: 21px;
   font-family: AvertaCY-Bold;
@@ -235,10 +239,13 @@ p {
   margin: 0 15px;
   padding: 0 14px;
 }
-.featured-container {
+.featured-container, .latest-container {
   border: 1px solid rgb(229, 231, 236);
   border-radius: 8px;
   margin-top: 19px;
+}
+.featured-container {
+  margin-bottom: 52px;
 }
 .featured-icon {
   margin-right: 19px;
@@ -267,7 +274,7 @@ p {
 
 
 .latest-section {
-  padding: 53px 0 133px 0;
+  padding: 53px 0 100px 0;
 }
 .dot {
   height: 28px;
@@ -306,15 +313,19 @@ p {
 .arrow-color {
   color: #a3a7b4 !important;
 }
+.pagination-section {
+  margin-top: 27px;
+}
 
 
 .faq-section {
-  padding: 101px 0 0 0;
+  padding: 73px 0 101px 0;
   background-color: #f8f9fb;
 }
 .faq-title {
   font-size: 30px;
   font-family: AvertaCY-Bold;
+  margin-top: 26px;
 }
 .faq-h {
   font-size: 21px;
@@ -322,7 +333,49 @@ p {
   font-family: Averta-Semibold;
   letter-spacing: -0.3px;
   padding: 0;
-  
+}
+.mycard-body {
+  background-color: transparent;
+  font-family: AvertaCY-Regular;
+  color: #031b4e;
+  padding: 17px 10px 8px 42px;
+  letter-spacing: -0.1px;
+}
+.faq-container {
+  padding: 4px 2px 4px 26px;
+}
+.faq-box {
+  border-bottom: 1px solid #e5e7ec;
+  padding: 30px 0;
+}
+
+
+.seo-tips-section {
+  padding: 107px 0 0 0;
+}
+.seo-tips-h {
+  font-size: 30px;
+  font-family: AvertaCY-Bold;
+  margin-bottom: 12px;
+}
+.seo-tips-sh {
+  font-size: 21px;
+  margin-top: 37px;
+  padding-right: 33px;
+  margin-bottom: 41px;
+}
+.blue-horizontal-line {
+  background-color: rgb(51, 105, 232);
+  width: 33px;
+  height: 3px;
+}
+.seo-tips-p {
+  margin-bottom: 35px;
+  line-height: 25px;
+}
+.bold-p {
+  font-family: Averta-Semibold;
+  color: #031b4e;
 }
 
 
@@ -358,6 +411,7 @@ p {
 
 /* footer */
 .footer-section {
+  background: url(../images/footer-bg.png) no-repeat top center;
   padding: 87px 0 117px 0;
 }
 .learn-more-btn {
@@ -425,6 +479,12 @@ p {
   .checkboxes{
     padding: 0 60px;
   }
+  .categaries-container {
+    padding-right: 0;
+ }
+ .seo-tips-sh {
+   padding-right: 0;
+ }
 }
 @media (max-width: 991px) {
   .footer-h {
@@ -438,18 +498,60 @@ p {
   .footer-p {
     margin: 15px 0 15px 0;
   }
-}
-@media (max-width: 991px) {
   .newsletter-container {
     padding: 40px 0 40px 0;
   }
   .footer-section {
     padding: 40px 0 40px 0;
   }
+  .faq-container {
+    padding: 0;
+  }
+  .title-p {
+    margin-bottom: 36px;
+  }
+  .featured-container, .latest-container {
+    margin-top: 0px;
+  }
+  .background-img2 {
+    padding-bottom: 25px;
+  }
+  .faq-section {
+    padding: 0px 0 37px 0;
+  }
+  .faq-box {
+    padding: 20px 0;
+  }
+  .seo-tips-section {
+    padding: 35px 0 0 0;
+  }
+  
 }
 @media (max-width: 767px) {
   .checkboxes, .subscribe-container {
     padding: 0;
+  }
+  .divider-border {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+  .divider-border-left {
+    border-left: 1px solid  rgb(229, 231, 236);
+    margin: 0 13px;
+    padding: 0 15px;
+  }
+  .newsletter-h, .title-h, .seo-tips-h, .faq-title {
+    font-size: 24px;
+  }
+  .faq-h {
+    font-size: 16px;
+  }
+  .faq-box {
+    padding: 15px 0;
+  }
+  .tablet-img {
+    width: 100%;
   }
 }
 @media (max-width: 575px) {
@@ -460,8 +562,10 @@ p {
   .subscribe-box {
     box-shadow: none;
   }
-  .newsletter-h {
-    font-size: 24px;
+  .divider-border-left {
+    border: none;
+    margin: 0;
+    padding: 0;
   }
 }
 

@@ -1,3 +1,11 @@
+var PAGINATION_ITEMS_PER_PAGE = 6; 
+
+// $(function() {
+  
+// });
+pagination();
+
+
 function pagination() {
   populate_data_for_pagination();
   pagination_setup_page(1);
@@ -11,7 +19,7 @@ function populate_data_for_pagination() {
     data_items.forEach(function (item) {
       const cloned_item = item.cloneNode(true);
       const page_no_str = "<<<<<<<< PAGE NO " + (page_no + 1) + " >>>>>>>> ";
-      cloned_item.querySelector('div a p').innerHTML = page_no_str + cloned_item.querySelector('div a p').innerHTML;
+      cloned_item.querySelector('div a').innerHTML = page_no_str + cloned_item.querySelector('div a').innerHTML;
       document.querySelector("#id-pagination-data").appendChild(cloned_item);
     });
   }
@@ -79,3 +87,23 @@ function pagination_setup_page(page_no) {
     data_items[idx].classList.remove("d-none");
   }
 }
+
+
+var questions = document.querySelectorAll(".faq-h");
+questions.forEach(function (item) {
+  item.addEventListener("click", function (event) {
+    // var src_change = document.querySelectorAll(".faq-h div div img");
+    // src_change.forEach(function (inner_item) {
+    //   if (inner_item.parentNode.parentNode.parentNode != item) {
+    //     inner_item.src = "./images/plus-btn.png";
+    //   }
+    // })
+    var img = item.querySelector("div img");
+    if (img.src.includes("plus")) {
+      img.src = "./images/minus-btn.png";
+    }
+    else {
+      img.src = "./images/plus-btn.png";
+    }
+  })
+})
