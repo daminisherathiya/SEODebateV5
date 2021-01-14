@@ -151,6 +151,9 @@ p {
   color: #031b4e;
   margin-left: 15px;
 }
+.categories-items:hover {
+  color: #3369e8;
+}
 .categaries {
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
@@ -482,7 +485,7 @@ p {
   .categaries-container {
     padding-right: 0;
  }
- .seo-tips-sh {
+ .seo-tips-sh, .title-p {
    padding-right: 0;
  }
 }
@@ -552,6 +555,9 @@ p {
   }
   .tablet-img {
     width: 100%;
+  }
+  .border-bottom {
+    padding: 15px;
   }
 }
 @media (max-width: 575px) {
