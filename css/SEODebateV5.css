@@ -559,6 +559,12 @@ p {
   .border-bottom {
     padding: 15px;
   }
+  .seo-tips-p {
+    margin-bottom: 20px;
+  }
+  .seo-tips-sh {
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 575px) {
   .add-comment-btn, .subscribe-btn {
@@ -573,6 +579,7 @@ p {
     margin: 0;
     padding: 0;
   }
+
 }
 
 /* media-query-end */  
