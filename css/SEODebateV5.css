@@ -411,6 +411,12 @@ p {
   font-size: 15px;
   padding: 13px 10px;
 }
+.my-chekbox:checked{
+  border: none;
+}
+.my-chekbox:focus {
+  border-color: #e1e3e7;
+}
 
 
 /* footer */
