@@ -280,6 +280,10 @@ p {
 .latest-section {
   padding: 53px 0 100px 0;
 }
+.pagination-coursor {
+  cursor: pointer;
+}
+
 .dot {
   height: 28px;
   width: 28px;
@@ -337,6 +341,9 @@ p {
   font-family: Averta-Semibold;
   letter-spacing: -0.3px;
   padding: 0;
+}
+.faq-h:hover {
+  color: #3369e8;
 }
 .mycard-body {
   background-color: transparent;
